@@ -1,0 +1,14 @@
+[
+  {
+    "id": "project_overview",
+    "text": "This project is a Retrieval Augmented Generation (RAG) assistant. It allows users to ask questions, retrieves relevant information from stored documents using vector similarity, and generates accurate answers using a language model."
+  },
+  {
+    "id": "architecture",
+    "text": "The system consists of document ingestion, text embedding using a sentence transformer model, vector storage, similarity search, and a FastAPI backend that exposes a chat API."
+  },
+  {
+    "id": "usage",
+    "text": "Users interact with the system through an API endpoint called /api/chat. The backend retrieves relevant document chunks and generates responses based on them."
+  }
+]

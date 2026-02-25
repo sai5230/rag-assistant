@@ -1,0 +1,4 @@
+This project is a RAG Assistant.
+It uses FastAPI as backend.
+Documents are embedded using sentence transformers.
+User queries are matched with vector similarity.
